@@ -1,10 +1,15 @@
 # Proyecto del curso Desarrollo de Software
+
 ## Nombre de la Aplicación Web: Opínalo
+
 ## Integrantes:
-### + Guevara Tanta Junior Ulises
-### + Peralta Haro Katheryn Ximena
-### + Quispe Amao Renzo Renato
-### + Olivieri Romero Stefano
+ + Guevara Tanta Junior Ulises
+
+ + Peralta Haro Katheryn Ximena
+
+ + Quispe Amao Renzo Renato
+
+ + Olivieri Romero Stefano
 
 ## Entregable 1 (P0, P1)
 
