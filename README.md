@@ -1,4 +1,4 @@
-# Proyecto del curso Desarollo de Software
+# Proyecto del curso Desarrollo de Software
 ## Nombre de la Aplicación Web: Opínalo
 ## Integrantes:
 ### + Guevara Tanta Junior Ulises
