@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="css/estilosregistro-login.css">
+
+    <title>Registro</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/rate2.ico">
+</head>
+
+<body>
+    <form class="formulario">
+        <div class="contenedor">
+            <div>
+                <img class="centrado" src="images/rate2.png" style="width: 100px; height: 100px;"  alt="Logo">
+            <label class="nombre"  style="font-size: 80px;margin-left: 90px;"> Opínalo </label>
+            </div>
+            
+            <div class="input-contenedor">
+                <i class="fas fa-user"></i>
+                <input type="text" name="nombre" placeholder="Nombre Completo" required>
+            </div>
+            
+            <div class="input-contenedor">
+                <i class="fas fa-user"></i>
+                <input type="text" name="apellido" placeholder="Apellidos" required>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="email" name="email" placeholder="Correo Electronico" required>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-key"></i>
+                <input type="password" name="password" placeholder="Contraseña" autocomplete="on" required>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-user"></i>
+                <input type="number" name="dni" placeholder="dni" required style="-webkit-appearance: textfield !important; margin :0 ; -moz-appearance: textfield !important; width:450px;">
+            </div>
+
+            <div class="input-contenedor" style="width: 105px;">
+                <label>Edad : </label>
+                <input type="number"  name="edad" id="edad" required
+                style="-webkit-appearance: textfield !important; margin :0 ; -moz-appearance: textfield !important;width: 50px;">
+                
+               
+
+            </div>
+
+            <div class="input-contenedor">
+                <label>Género : </label><br>
+                <input type="radio" name="opciongenero" value="Hombre" >
+                <label for="opcion-Hombew"> Hombre </label><br>
+                <input type="radio" name="opciongenero" value="Mujer" >
+                <label for="opcion-Mujer"> Mujer </label><br>
+                <input type="radio" name="opciongenero" value="no precisa" >
+                <label for="opcion-no-precisa"> No precisa </label><br>
+            </div>
+
+            <div class="input-contenedor">
+                <label>Nivel academico : </label><br>
+                <input type="radio" name="nivelacademico" value="bachiller" >
+                <label for="opcion-bachiller"> bachiller </label><br>
+                <input type="radio" name="nivelacademico" value="secundaria completa" >
+                <label for="opcion-secundaria-completa"> secundaria completa </label><br>
+                <input type="radio" name="nivelacademico" value="estudiante universitario" >
+                <label for="opcion-estudiante-universitario"> estudiante universitario </label><br>
+            </div>
+
+            <input type="submit" value="Registrate" class="button">
+            <input type="hidden" name="id">
+            <p>Al registrarte aceptas todos nuestros terminos y condiciones</p>
+            <p>¿ Ya tienes cuenta ? Ingresa a Opinalo
+                <a class="link" href="login.html">Inicia sesion</a></p>
+        </div>
+    </form>
+
+</body>
+<script src="js/registro.js"></script>
+
+</html>

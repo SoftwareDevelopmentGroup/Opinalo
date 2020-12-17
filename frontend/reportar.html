@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Reportar Usuario</title>
+    <link href="./css/reportar.css" rel="stylesheet">
+</head>
+<body>
+    
+        <nav class="navbar navbar-light bg-warning">
+            <label class="navbar-brand mx-auto"  >Reportar usuario</label>
+        </nav>
+        <div class="container mt-3 mx-auto" id="mensaje_gracias">
+
+        </div>
+        <div class="container mt-3" id="contenedor-form">
+            <form class="form-reporte">
+                <div class="mb-3">
+                    <label for="nombreusuario" class="form-label">Nombre de usuario</label>
+                    <input type="text" class="form-control" id="nombreusuario" name="username">
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" >
+                </div>
+                <!-- Selecciona un problema -->
+                <!-- opciones : acoso,spam,lenguaje que incita al odio , violencia, otro -->
+                <div class="mb-3">
+                    <label for="preguntaproblema" class="form-label">¿Cuál es el problema?</label>
+                </div>    
+                           
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="acoso" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Acoso
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="spam" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Spam
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="lenguaje que incita al odio" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Lenguaje que incita al odio
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="violencia" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Violencia
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="otro" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Otros
+                    </label>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary" onclick="ocultar()">Enviar</button>
+              </form>
+        </div>
+    
+</body>
+<script src="./js/reportar.js"></script>
+</html>
