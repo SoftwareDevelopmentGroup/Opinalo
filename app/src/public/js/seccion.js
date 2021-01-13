@@ -94,9 +94,9 @@ function reportar(props) {
     //Guardar el id
     const mensaje = confirm("Desea reportar al usuario ?");
     if(mensaje){
-        window.open('reportar.html')
+        window.open('reportar')
     }
-     
+
 } 
 
 
